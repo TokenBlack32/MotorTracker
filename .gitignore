@@ -1,0 +1,39 @@
+# Python
+
+__pycache__/
+
+*.pyc
+
+*.pyo
+
+*.pyd
+
+# Virtual Environment
+
+venv/
+
+.venv/
+
+# PyInstaller
+
+build/
+
+dist/
+
+*.spec
+
+# Logs
+
+Logs/*.log
+
+# Excel temporales
+
+~$*.xlsx
+
+# VSCode
+
+.vscode/
+
+# Idea
+
+.idea/

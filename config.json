@@ -1,0 +1,17 @@
+{
+    "database_folder": "Database",
+    "reports_folder": "Reports",
+    "processed_folder": "Processed",
+    "logs_folder": "Logs",
+
+    "database_file": "MASTER TRACK MOTORES.xlsx",
+
+    "duplicate_keys": [
+        "NCT",
+        "VIN"
+    ],
+
+    "auto_process": false,
+
+    "theme": "light"
+}
