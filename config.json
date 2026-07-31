@@ -1,17 +1,33 @@
 {
-    "database_folder": "Database",
-    "reports_folder": "Reports",
-    "processed_folder": "Processed",
-    "logs_folder": "Logs",
-
-    "database_file": "MASTER TRACK MOTORES.xlsx",
-
-    "duplicate_keys": [
-        "NCT",
-        "VIN"
-    ],
-
-    "auto_process": false,
-
-    "theme": "light"
+    "app_name": "MotorTracker",
+    "version": "1.0.0",
+    "database": {
+        "folder": "Database",
+        "file": "MASTER TRACK MOTORES.xlsx",
+        "backup": true,
+        "backup_folder": "Backups"
+    },
+    "reports": {
+        "folder": "Reports",
+        "processed_folder": "Processed",
+        "extensions": [
+            ".xlsx",
+            ".xlsm",
+            ".xls"
+        ]
+    },
+    "logs": {
+        "folder": "Logs",
+        "level": "INFO"
+    },
+    "import": {
+        "auto_process": false,
+        "duplicate_keys": [
+            "NCT",
+            "VIN"
+        ]
+    },
+    "ui": {
+        "theme": "Light"
+    }
 }

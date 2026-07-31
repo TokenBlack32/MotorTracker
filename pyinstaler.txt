@@ -1,0 +1,6 @@
+pyinstaller main.py `
+>>   --noconfirm `
+>>   --windowed `
+>>   --onedir `
+>>   --name MotorTracker `
+>>   --add-data "config.json;."
